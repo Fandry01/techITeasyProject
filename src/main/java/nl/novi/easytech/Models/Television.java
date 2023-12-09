@@ -170,4 +170,12 @@ public class Television {
     public void setSold(Integer sold) {
         this.sold = sold;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
